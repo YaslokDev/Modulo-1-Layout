@@ -1,0 +1,47 @@
+@import "variables";
+
+body {
+  font-family: $tema-b-font-principal;
+}
+
+.base {
+  background-color: $tema-b-color-base;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  align-content: center;
+}
+
+.important {
+  background-color: $tema-b-color-important;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  align-content: center;
+}
+
+.warning {
+  background-color: $tema-b-color-warning;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  align-content: center;
+}
+
+.principal-font {
+  font-family: $tema-b-font-principal;
+}
+
+.secondary-font {
+  font-family: $tema-b-font-secondary;
+}
+
+.box-with-shadow {
+  width: 100px;
+  height: 100px;
+  align-content: center;
+  border-radius: 5px;
+  box-shadow: $tema-b-box-shadow;
+  padding: 10px;
+  background-color: white;
+}

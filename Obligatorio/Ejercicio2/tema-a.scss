@@ -1,0 +1,43 @@
+@import "variables";
+
+body {
+  font-family: $tema-a-font-principal;
+}
+
+.base {
+  background-color: $tema-a-color-base;
+  width: 100px;
+  height: 100px;
+  align-content: center;
+}
+
+.important {
+  background-color: $tema-a-color-important;
+  width: 100px;
+  height: 100px;
+  align-content: center;
+}
+
+.warning {
+  background-color: $tema-a-color-warning;
+  width: 100px;
+  height: 100px;
+  align-content: center;
+}
+
+.principal-font {
+  font-family: $tema-a-font-principal;
+}
+
+.secondary-font {
+  font-family: $tema-a-font-secondary;
+}
+
+.box-with-shadow {
+  width: 100px;
+  height: 100px;
+  align-content: center;
+  box-shadow: $tema-a-box-shadow;
+  padding: 10px;
+  background-color: white;
+}
